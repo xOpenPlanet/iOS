@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>水星</string>
+		<key>enName</key>
+		<string>mercury</string>
+		<key>information</key>
+		<string>英文名：Mercury
+最接近太阳，是太阳系中最小的行星。水星在直径上小于木卫三和土卫六，但它的质量更大。
+公转轨道：距太阳57,910,000 千米 (0.387天文单位)
+水星直径：4,880 千米
+质量：3.30e23 千克</string>
+		<key>imageName</key>
+		<string>1_Planet_mercury.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>金星</string>
+		<key>enName</key>
+		<string>venus</string>
+		<key>information</key>
+		<string>英文名：Venus
+是离太阳第二近的行星，太阳系中第六大行星。在所有行星中，金星的轨道最接近圆，偏差不到1%。
+轨道半径：距太阳 108,200,000 千米 (0.723 天文单位）
+行星直径：12,103.6 千米
+质量：4.869e24 千克</string>
+		<key>imageName</key>
+		<string>2_Planet_Venus.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>地球</string>
+		<key>enName</key>
+		<string>earth</string>
+		<key>information</key>
+		<string>英文名：Earth
+我们的家园，是太阳系从内向外第三颗行星，也是太阳系第五大行星。
+轨道半径：149,600,000 千米 （离太阳1.00 天文单位）
+行星直径：12,742千米
+质量：5.9736e24 千克</string>
+		<key>imageName</key>
+		<string>3_Planet_earth.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>火星</string>
+		<key>enName</key>
+		<string>mars</string>
+		<key>information</key>
+		<string>英文名：Mars
+为距太阳第四远，也是太阳系中第七大行星，在中国古代又称荧火，因为火星呈红色，荧荧像火，亮度常有变化；而且在天空中运动，有时从西向东，有时又从东向西，情况复杂，令人迷惑，所以中国古代叫它“荧惑”，有“荧荧火光，离离乱惑。”之意。
+公转轨道：离太阳227,940,000 千米 (1.52 天文单位）
+行星直径：6,794 千米
+质量：6.4219e23 千克</string>
+		<key>imageName</key>
+		<string>4_Planet_Mars.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>木星</string>
+		<key>enName</key>
+		<string>jupiter</string>
+		<key>information</key>
+		<string>英文名：Jupiter
+是离太阳第五颗行星，而且是最大的一颗，比所有其他的行星的和质量大2.5倍（地球的318倍）。
+公转轨道：距太阳 778,330,000 千米 (5.20 天文单位）
+行星直径：142,984 千米 (赤道)
+质量：1.900e27 千克</string>
+		<key>imageName</key>
+		<string>5_Planet_Jupiter.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>土星</string>
+		<key>enName</key>
+		<string>saturn</string>
+		<key>information</key>
+		<string>英文名：Saturn
+是离太阳第六远的行星，也是八大行星中第二大的行星。
+公转轨道：距太阳 1,429,400,000 千米 (9.54 天文单位）
+行星直径：120,536 千米 （赤道）
+质量：5.68e26 千克</string>
+		<key>imageName</key>
+		<string>6_Planet_Saturn.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>天王星</string>
+		<key>enName</key>
+		<string>uranus</string>
+		<key>information</key>
+		<string>英文名：Uranus
+是太阳系中离太阳第七远行星，从直径来看，是太阳系中第三大行星。天王星的体积比海王星大，质量却比其小。
+公转轨道：距太阳2,870,990,000 千米 (19.218 天文单位）
+行星直径：51,118 千米（赤道）
+质量：8.683e25 千克</string>
+		<key>imageName</key>
+		<string>7_Planet_Uranus.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>海王星</string>
+		<key>enName</key>
+		<string>neptune</string>
+		<key>information</key>
+		<string>英文名：Neptune
+是环绕太阳运行的第八颗行星，也是太阳系中第四大天体（直径上）。海王星在直径上小于天王星，但质量比它大。
+公转轨道：距太阳 4,504,000,000 千米 (30.10 天文单位）
+行星直径：49,532 千米（赤道）
+质量：1.0247e26 千克</string>
+		<key>imageName</key>
+		<string>8_planet_neptune.png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>冥王星</string>
+		<key>enName</key>
+		<string>pluto</string>
+		<key>information</key>
+		<string>英文名：Pluto
+Pluto为古罗马神话中冥王普鲁托（即希腊神话中哈迪斯Hades）
+历史上曾经认为，冥王星是离太阳最远而且是最小的行星，在希腊神话中象征冥王哈迪斯，是宙斯的哥哥，被弟弟夺去王位后，堕落到冥界。冥王星有三颗卫星。
+太阳系中有七颗卫星比冥王星大（月球，木卫一，木卫二，木卫三，木卫四，土卫六 和 海卫一）。
+公转轨道：离太阳平均距离5,913,520,000 千米 (39.5天文单位)
+直径：2370 千米
+质量：1.27e22 千克</string>
+		<key>imageName</key>
+		<string>9_Dwarfplanet_Pluto.png</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+	<key>[微笑]</key>
+	<string>f_static_023</string>
+</dict>
+<dict>
+	<key>[撇嘴]</key>
+	<string>f_static_040</string>
+</dict>
+<dict>
+	<key>[色]</key>
+	<string>f_static_019</string>
+</dict>
+<dict>
+	<key>[发呆]</key>
+	<string>f_static_043</string>
+</dict>
+<dict>
+	<key>[得意]</key>
+	<string>f_static_021</string>
+</dict>
+<dict>
+	<key>[流泪]</key>
+	<string>f_static_009</string>
+</dict>
+<dict>
+	<key>[害羞]</key>
+	<string>f_static_020</string>
+</dict>
+<dict>
+	<key>[闭嘴]</key>
+	<string>f_static_106</string>
+</dict>
+
+<dict>
+	<key>[睡]</key>
+	<string>f_static_035</string>
+</dict>
+<dict>
+	<key>[大哭]</key>
+	<string>f_static_010</string>
+</dict>
+<dict>
+	<key>[尴尬]</key>
+	<string>f_static_025</string>
+</dict>
+<dict>
+	<key>[发怒]</key>
+	<string>f_static_024</string>
+</dict>
+<dict>
+	<key>[调皮]</key>
+	<string>f_static_001</string>
+</dict>
+<dict>
+	<key>[呲牙]</key>
+	<string>f_static_000</string>
+</dict>
+<dict>
+	<key>[惊讶]</key>
+	<string>f_static_033</string>
+</dict>
+<dict>
+	<key>[难过]</key>
+	<string>f_static_032</string>
+</dict>
+<dict>
+	<key>[酷]</key>
+	<string>f_static_012</string>
+</dict>
+<dict>
+	<key>[冷汗]</key>
+	<string>f_static_027</string>
+</dict>
+<dict>
+	<key>[抓狂]</key>
+	<string>f_static_013</string>
+</dict>
+<dict>
+	<key>[吐]</key>
+	<string>f_static_022</string>
+</dict>
+<dict>
+	<key>[偷笑]</key>
+	<string>f_static_003</string>
+</dict>
+<dict>
+	<key>[白眼]</key>
+	<string>f_static_030</string>
+</dict>
+<dict>	
+	<key>[可爱]</key>
+	<string>f_static_018</string>
+	</dict>
+<dict>
+	<key>[傲慢]</key>
+	<string>f_static_031</string>
+</dict>
+<dict>
+	<key>[饥饿]</key>
+	<string>f_static_081</string>
+</dict>
+<dict>
+	<key>[困]</key>
+	<string>f_static_082</string>
+</dict>
+<dict>
+	<key>[惊恐]</key>
+	<string>f_static_026</string>
+</dict>
+<dict>
+	<key>[流汗]</key>
+	<string>f_static_002</string>
+</dict>
+<dict>	
+	<key>[憨笑]</key>
+	<string>f_static_037</string>
+</dict>
+<dict>	
+	<key>[大兵]</key>
+	<string>f_static_050</string>
+</dict>
+<dict>	
+	<key>[奋斗]</key>
+	<string>f_static_042</string>
+</dict>
+<dict>	
+	<key>[咒骂]</key>
+	<string>f_static_083</string>
+</dict>
+<dict>	
+	<key>[疑问]</key>
+	<string>f_static_034</string>
+</dict>
+<dict>	
+	<key>[嘘]</key>
+	<string>f_static_011</string>
+</dict>
+<dict>	
+	<key>[晕]</key>
+	<string>f_static_049</string>
+</dict>
+<dict>	
+	<key>[抓狂]</key>
+	<string>f_static_013</string>
+</dict>
+<dict>	
+	<key>[衰]</key>
+	<string>f_static_039</string>
+</dict>
+<dict>	
+	<key>[骷髅]</key>
+	<string>f_static_078</string>
+</dict>
+<dict>	
+	<key>[敲打]</key>
+	<string>f_static_005</string>
+</dict>
+<dict>	
+	<key>[再见]</key>
+	<string>f_static_004</string>
+</dict>
+<dict>	
+	<key>[擦汗]</key>
+	<string>f_static_006</string>
+</dict>
+<dict>	
+	<key>[抠鼻]</key>
+	<string>f_static_085</string>
+</dict>
+<dict>	
+	<key>[鼓掌]</key>
+	<string>f_static_086</string>
+</dict>
+<dict>	
+	<key>[糗大了]</key>
+	<string>f_static_087</string>
+</dict>
+<dict>	
+	<key>[坏笑]</key>
+	<string>f_static_046</string>
+</dict>
+<dict>	
+	<key>[左哼哼]</key>
+	<string>f_static_088</string>
+</dict>
+<dict>	
+	<key>[右哼哼]</key>
+	<string>f_static_044</string>
+</dict>
+<dict>	
+	<key>[哈欠]</key>
+	<string>f_static_089</string>
+</dict>
+<dict>	
+	<key>[鄙视]</key>
+	<string>f_static_048</string>
+</dict>
+<dict>	
+	<key>[委屈]</key>
+	<string>f_static_014</string>
+</dict>
+<dict>	
+	<key>[快哭了]</key>
+	<string>f_static_090</string>
+</dict>
+<dict>	
+	<key>[阴险]</key>
+	<string>f_static_041</string>
+</dict>
+<dict>	
+	<key>[亲亲]</key>
+	<string>f_static_036</string>
+</dict>
+<dict>	
+	<key>[吓]</key>
+	<string>f_static_091</string>
+</dict>
+<dict>	
+	<key>[可怜]</key>
+	<string>f_static_051</string>
+</dict>
+<dict>	
+	<key>[菜刀]</key>
+	<string>f_static_017</string>
+</dict>
+<dict>	
+	<key>[西瓜]</key>
+	<string>f_static_060</string>
+</dict>
+<dict>	
+	<key>[啤酒]</key>
+	<string>f_static_061</string>
+</dict>
+<dict>	
+	<key>[乒乓球]</key>
+	<string>f_static_093</string>
+</dict>
+<dict>	
+	<key>[咖啡]</key>
+	<string>f_static_066</string>
+</dict>
+<dict>	
+	<key>[饭]</key>
+	<string>f_static_058</string>
+</dict>
+<dict>	
+	<key>[猪头]</key>
+	<string>f_static_007</string>
+</dict>
+<dict>	
+	<key>[玫瑰]</key>
+	<string>f_static_008</string>
+</dict>
+<dict>	
+	<key>[凋谢]</key>
+	<string>f_static_057</string>
+</dict>
+<dict>	
+	<key>[示爱]</key>
+	<string>f_static_029</string>
+</dict>
+<dict>	
+	<key>[爱心]</key>
+	<string>f_static_028</string>
+</dict>
+<dict>	
+	<key>[心碎]</key>
+	<string>f_static_074</string>
+</dict>
+<dict>	
+	<key>[蛋糕]</key>
+	<string>f_static_059</string>
+</dict>
+<dict>	
+	<key>[闪电]</key>
+	<string>f_static_080</string>
+</dict>
+<dict>	
+	<key>[炸弹]</key>
+	<string>f_static_016</string>
+</dict>
+<dict>	
+	<key>[刀]</key>
+	<string>f_static_070</string>
+</dict>
+<dict>	
+	<key>[飘虫]</key>
+	<string>f_static_062</string>
+</dict>
+<dict>	
+	<key>[便便]</key>
+	<string>f_static_015</string>
+</dict>
+<dict>	
+	<key>[月亮]</key>
+	<string>f_static_068</string>
+</dict>
+<dict>	
+	<key>[太阳]</key>
+	<string>f_static_075</string>
+</dict>
+<dict>	
+	<key>[礼物]</key>
+	<string>f_static_076</string>
+</dict>
+<dict>	
+	<key>[拥抱]</key>
+	<string>f_static_045</string>
+</dict>
+<dict>	
+	<key>[强]</key>
+	<string>f_static_052</string>
+</dict>
+<dict>	
+	<key>[弱]</key>
+	<string>f_static_053</string>
+</dict>
+<dict>
+	<key>[握手]</key>
+	<string>f_static_054</string>
+</dict>
+<dict>	
+	<key>[胜利]</key>
+	<string>f_static_055</string>
+</dict>
+<dict>	
+	<key>[抱拳]</key>
+	<string>f_static_056</string>
+</dict>
+<dict>	
+	<key>[勾引]</key>
+	<string>f_static_063</string>
+</dict>
+<dict>	
+	<key>[拳头]</key>
+	<string>f_static_073</string>
+</dict>
+<dict>	
+	<key>[差劲]</key>
+	<string>f_static_072</string>
+</dict>
+<dict>	
+	<key>[爱你]</key>
+	<string>f_static_065</string>
+</dict>
+<dict>	
+	<key>[NO]</key>
+	<string>f_static_094</string>
+</dict>
+<dict>	
+	<key>[OK]</key>
+	<string>f_static_064</string>
+</dict>
+</array>
+</plist>

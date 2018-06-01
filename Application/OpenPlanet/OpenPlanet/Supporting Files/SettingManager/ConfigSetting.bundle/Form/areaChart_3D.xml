@@ -1,0 +1,55 @@
+<application>
+  <forms>
+    <form id="form1" includedId="" name="form1" icon="">
+      <C id="C2F08E46-9FE7-34F1-353C-DBB9DAF9C13E" clazz="com.efounder.form.application::FormViewContainer">
+        <P name="id" type="String">C2F08E46-9FE7-34F1-353C-DBB9DAF9C13E</P>
+        <P name="x" type="Number">0</P>
+        <P name="y" type="Number">0</P>
+        <P name="width" type="Number">320</P>
+        <P name="height" type="Number">480</P>
+
+		<P name="percentX" type="Number">0</P>
+        <P name="percentY" type="Number">0</P>
+        <P name="percentWidth" type="Number">1</P>
+        <P name="percentHeight" type="Number">1</P>
+
+        <P name="enabled" type="Boolean">true</P>
+        <P name="visible" type="Boolean">true</P>
+        <P name="gap" type="int">0</P>
+        <P name="paddingLeft" type="Number">0</P>
+        <P name="paddingRight" type="Number">0</P>
+        <P name="paddingTop" type="Number">0</P>
+        <P name="paddingBottom" type="Number">0</P>
+        <P name="layoutType" type="String">basic</P>
+        <P name="horizontalAlign" type="String">left</P>
+        <P name="verticalAlign" type="String">top</P>
+        <P name="scriptObject" type="Object">null</P>
+        <C id="BaseChartArea1386681701890" clazz="com.efounder.charts.basechart::BaseChartArea_3D">
+          <P name="id" type="String">BaseChartArea1386681701890</P>
+          <P name="x" type="Number">0</P>
+          <P name="y" type="Number">0</P>
+          <P name="width" type="Number">320</P>
+          <P name="height" type="Number">480</P>
+		  <P name="percentX" type="Number">0</P>
+		  <P name="percentY" type="Number">0</P>
+          <P name="percentWidth" type="Number">1</P>
+          <P name="percentHeight" type="Number">1</P>
+          <P name="enabled" type="Boolean">true</P>
+          <P name="visible" type="Boolean">true</P>
+          <P name="valueField" type="Array">null</P>
+          <P name="filterType" type="Number">0</P>
+          <P name="stackType" type="String">overlaid</P>
+          <P name="showTips" type="Boolean">true</P>
+        </C>
+      </C>
+    </form>
+  </forms>
+  <models>
+    <M id="ModelContainer1386665797712" clazz="com.efounder.form.model::ModelContainer">
+      <P name="id" type="String">ModelContainer1386665797712</P>
+      <P name="label" type="String">ModelContainer1386665797712</P>
+      <P name="scriptObject" type="Object">null</P>
+    </M>
+  </models>
+  <events/>
+</application>

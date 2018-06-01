@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=8,IE=9,IE=10,IE=edge"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <meta http-equiv="X-UA-Compatible" content="IE=10">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>index</title>
+    <script src="js/debug.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript" src="GWTMobilePlay/GWTMobilePlay.nocache.js"></script>
+    <script type="text/javascript" src="js/echarts/echarts-all.js"></script>
+    <script src="js/excel/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/excel/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="js/excel/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+    <!--<script src="js/excel/main.js" type="text/javascript"></script>-->
+    <script src="js/excel/gcspread.sheets.all.9.40.20153.0.min.js" type="text/javascript"></script>
+	<script src="js/liquidFillGauge/liquidFillGauge.js" type="text/javascript"></script>
+	<script src="js/liquidFillGauge/v3min.js" type="text/javascript"></script>
+	
+    <!--<link href="js/excel/jquery.wijmo.wijspread.3.20143.15.css" rel="stylesheet" type="text/css" />-->
+    <link href="js/excel/gcspread.sheets.9.40.20153.0.css" rel="stylesheet" type="text/css" />
+    <link href="css/explore.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+    function invokeGWTByIOS2(data) {
+        window.invokeFormContainer(data);
+        return "OK";
+    }
+
+    function loadFormByIOS(forms, contentView, keys, values, message) {
+        var nodeObject = new Object();
+        nodeObject["forms"] = forms;
+        nodeObject["contentView"] = contentView;
+        if (keys != "") {
+            var keysArray = new Array();
+            keysArray = keys.split(";");
+            var valuesArray = new Array();
+            valuesArray = values.split(";");
+
+            for (i = 0; i < keysArray.length; i++) {
+                nodeObject[keysArray[i]] = valuesArray[i];
+                alert(keysArray[i] + "----" + valuesArray[i]);
+            }
+        }
+        if(message != "") {
+            nodeObject["message"] = message;
+        }
+        window.openForm(nodeObject);
+        return "ok";
+    }
+
+    function loadFormWithJSONByIOS(forms, contentView, json) {
+        var nodeObject = new Object();
+        nodeObject["forms"] = forms;
+        nodeObject["contentView"] = contentView;
+        var webFormMap = new Object();
+        webFormMap[forms] = json;
+        window.openForm(nodeObject, webFormMap);
+        return forms;
+    }
+
+    function beforeInitApplication() {
+
+        window.setObject("Product", "PGYDYY");
+        //window.setObject("DBNO", "PW_DB01");
+        //window.setObject("DataBaseName", "PW_DB01");
+        //window.putEAIEnv("formPageBackgroundImage","ImageSpace/ios_tablet_bg_scjk_4.png");
+    }
+
+    function afterInitApplication() {
+        // window.parent.refresh();
+        try {
+            window.webkit.messageHandlers.message.postMessage("formCreated");
+        } catch (e) {
+
+        }
+    }
+    window.onerror = function(err) {
+        log('window.onerror: ' + err)
+    }
+
+
+    function connectWebViewJavascriptBridge(callback) {
+        if (window.WebViewJavascriptBridge) {
+            callback(WebViewJavascriptBridge)
+        } else {
+            document.addEventListener('WebViewJavascriptBridgeReady', function() {
+                callback(WebViewJavascriptBridge)
+            }, false)
+        }
+    }
+
+    connectWebViewJavascriptBridge(function(bridge) {
+        var uniqueId = 1
+
+        function log(message, data) {
+            var log = document.getElementById('log')
+            var el = document.createElement('div')
+            el.className = 'logLine'
+            el.innerHTML = uniqueId++ + '. ' + message + ':<br/>' + JSON.stringify(data)
+            if (log.children.length) {
+                log.insertBefore(el, log.children[0])
+            } else {
+                log.appendChild(el)
+            }
+        }
+        bridge.init(function(message, responseCallback) {
+            log('JS got a message', message)
+            var data = {
+                'Javascript Responds': 'Wee!'
+            }
+            log('JS responding with', data)
+            responseCallback(data)
+        })
+
+        bridge.registerHandler('invokeGWTByIOS', function(data, responseCallback) {
+            //log('ObjC called testJavascriptHandler with', data)
+            var responseData = {
+                    'Javascript Says': 'Right back atcha!'
+                }
+                //log('JS responding with', responseData)
+            responseCallback(responseData)
+        })
+
+        bridge.registerHandler('loadFormByIOS', function(data, responseCallback) {
+            var obj = eval(data);
+
+            var nodeObject = new Object();
+            nodeObject["forms"] = obj.forms;
+            nodeObject["contentView"] = obj.contentView;
+            window.openForm(nodeObject);
+
+            var responseData = {
+                    'Javascript Says': 'Right back atcha!'
+                }
+                //log('JS responding with', responseData)
+            responseCallback(responseData)
+        })
+
+        var button = document.getElementById('buttons').appendChild(document.createElement('button'))
+        button.innerHTML = 'Send message to ObjC'
+        button.onclick = function(e) {
+            e.preventDefault()
+            var data = 'Hello from JS button'
+            log('JS sending message', data)
+            bridge.send(data, function(responseData) {
+                log('JS got response', responseData)
+            })
+        }
+
+        document.body.appendChild(document.createElement('br'))
+
+        var callbackButton = document.getElementById('buttons').appendChild(document.createElement('button'))
+        callbackButton.innerHTML = 'Fire testObjcCallback'
+        callbackButton.onclick = function(e) {
+            e.preventDefault()
+            log('JS calling handler "testObjcCallback"')
+            bridge.callHandler('testObjcCallback', {
+                'foo': 'bar'
+            }, function(response) {
+                log('JS got response', response)
+            })
+        }
+    })
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

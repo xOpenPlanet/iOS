@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531038051C4F2883001FFDD1 /* libShareComps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 531037F91C4F2883001FFDD1 /* libShareComps.a */; };
+		C4377F561FEB4D5800849334 /* EFShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4377F441FEB4D5800849334 /* EFShareController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		531038061C4F2883001FFDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531037F11C4F2883001FFDD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531037F81C4F2883001FFDD1;
+			remoteInfo = ShareComps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		531037F71C4F2883001FFDD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		531037F91C4F2883001FFDD1 /* libShareComps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShareComps.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		531038041C4F2883001FFDD1 /* ShareCompsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCompsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4377F431FEB4D5800849334 /* EFShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFShareController.h; sourceTree = "<group>"; };
+		C4377F441FEB4D5800849334 /* EFShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFShareController.m; sourceTree = "<group>"; };
+		C4377F471FEB4D5800849334 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		C4377F481FEB4D5800849334 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		C4377F4A1FEB4D5800849334 /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		C4377F4B1FEB4D5800849334 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		C4377F4D1FEB4D5800849334 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		C4377F4E1FEB4D5800849334 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		C4377F501FEB4D5800849334 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		C4377F511FEB4D5800849334 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		C4377F521FEB4D5800849334 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		C4377F541FEB4D5800849334 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		C4377F551FEB4D5800849334 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531037F61C4F2883001FFDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531038011C4F2883001FFDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531038051C4F2883001FFDD1 /* libShareComps.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531037F01C4F2883001FFDD1 = {
+			isa = PBXGroup;
+			children = (
+				C4377F421FEB4D5800849334 /* ShareComps */,
+				531037FA1C4F2883001FFDD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531037FA1C4F2883001FFDD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531037F91C4F2883001FFDD1 /* libShareComps.a */,
+				531038041C4F2883001FFDD1 /* ShareCompsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4377F421FEB4D5800849334 /* ShareComps */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F431FEB4D5800849334 /* EFShareController.h */,
+				C4377F441FEB4D5800849334 /* EFShareController.m */,
+				C4377F451FEB4D5800849334 /* SocialLibraries */,
+				C4377F4F1FEB4D5800849334 /* UMSocialSDK */,
+				C4377F531FEB4D5800849334 /* UMSocialUI */,
+			);
+			path = ShareComps;
+			sourceTree = "<group>";
+		};
+		C4377F451FEB4D5800849334 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F461FEB4D5800849334 /* QQ */,
+				C4377F491FEB4D5800849334 /* Sina */,
+				C4377F4C1FEB4D5800849334 /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		C4377F461FEB4D5800849334 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F471FEB4D5800849334 /* libSocialQQ.a */,
+				C4377F481FEB4D5800849334 /* UMSocialQQHandler.h */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		C4377F491FEB4D5800849334 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F4A1FEB4D5800849334 /* libSocialSina.a */,
+				C4377F4B1FEB4D5800849334 /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		C4377F4C1FEB4D5800849334 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F4D1FEB4D5800849334 /* libSocialWeChat.a */,
+				C4377F4E1FEB4D5800849334 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		C4377F4F1FEB4D5800849334 /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F501FEB4D5800849334 /* UMSocialCore.framework */,
+				C4377F511FEB4D5800849334 /* UMSocialNetwork.framework */,
+				C4377F521FEB4D5800849334 /* UMSocialSDKPromptResources.bundle */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		C4377F531FEB4D5800849334 /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4377F541FEB4D5800849334 /* UMSocialSDKResources.bundle */,
+				C4377F551FEB4D5800849334 /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531037F81C4F2883001FFDD1 /* ShareComps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5310380D1C4F2883001FFDD1 /* Build configuration list for PBXNativeTarget "ShareComps" */;
+			buildPhases = (
+				531037F51C4F2883001FFDD1 /* Sources */,
+				531037F61C4F2883001FFDD1 /* Frameworks */,
+				531037F71C4F2883001FFDD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareComps;
+			productName = ShareComps;
+			productReference = 531037F91C4F2883001FFDD1 /* libShareComps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		531038031C4F2883001FFDD1 /* ShareCompsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531038101C4F2883001FFDD1 /* Build configuration list for PBXNativeTarget "ShareCompsTests" */;
+			buildPhases = (
+				531038001C4F2883001FFDD1 /* Sources */,
+				531038011C4F2883001FFDD1 /* Frameworks */,
+				531038021C4F2883001FFDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531038071C4F2883001FFDD1 /* PBXTargetDependency */,
+			);
+			name = ShareCompsTests;
+			productName = ShareCompsTests;
+			productReference = 531038041C4F2883001FFDD1 /* ShareCompsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		531037F11C4F2883001FFDD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = childs;
+				TargetAttributes = {
+					531037F81C4F2883001FFDD1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					531038031C4F2883001FFDD1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 531037F41C4F2883001FFDD1 /* Build configuration list for PBXProject "ShareComps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 531037F01C4F2883001FFDD1;
+			productRefGroup = 531037FA1C4F2883001FFDD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531037F81C4F2883001FFDD1 /* ShareComps */,
+				531038031C4F2883001FFDD1 /* ShareCompsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531038021C4F2883001FFDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531037F51C4F2883001FFDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4377F561FEB4D5800849334 /* EFShareController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531038001C4F2883001FFDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531038071C4F2883001FFDD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531037F81C4F2883001FFDD1 /* ShareComps */;
+			targetProxy = 531038061C4F2883001FFDD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5310380B1C4F2883001FFDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5310380C1C4F2883001FFDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5310380E1C4F2883001FFDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareComps/libraries/extends/QQSDK",
+					"$(PROJECT_DIR)/ShareComps/libraries",
+					"$(PROJECT_DIR)/ShareComps/UMSocialSDK",
+					"$(PROJECT_DIR)/ShareComps/UMSocialUI",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareComps/libraries/extends/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ShareComps/libraries/extends/WeChatSDK",
+					"$(PROJECT_DIR)/ShareComps/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShareComps/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/ShareComps/SocialLibraries/WeChat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../Core/OSPBase/** ../ToolsLibrary/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		5310380F1C4F2883001FFDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareComps/libraries/extends/QQSDK",
+					"$(PROJECT_DIR)/ShareComps/libraries",
+					"$(PROJECT_DIR)/ShareComps/UMSocialSDK",
+					"$(PROJECT_DIR)/ShareComps/UMSocialUI",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareComps/libraries/extends/SinaWeiboSDK",
+					"$(PROJECT_DIR)/ShareComps/libraries/extends/WeChatSDK",
+					"$(PROJECT_DIR)/ShareComps/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/ShareComps/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/ShareComps/SocialLibraries/WeChat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../Core/OSPBase/** ../ToolsLibrary/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		531038111C4F2883001FFDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCompsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		531038121C4F2883001FFDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCompsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531037F41C4F2883001FFDD1 /* Build configuration list for PBXProject "ShareComps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5310380B1C4F2883001FFDD1 /* Debug */,
+				5310380C1C4F2883001FFDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5310380D1C4F2883001FFDD1 /* Build configuration list for PBXNativeTarget "ShareComps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5310380E1C4F2883001FFDD1 /* Debug */,
+				5310380F1C4F2883001FFDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531038101C4F2883001FFDD1 /* Build configuration list for PBXNativeTarget "ShareCompsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531038111C4F2883001FFDD1 /* Debug */,
+				531038121C4F2883001FFDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 531037F11C4F2883001FFDD1 /* Project object */;
+}

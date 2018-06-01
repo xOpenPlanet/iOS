@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+    <menuRoot>
+        <node id="kongjian" caption="空间" menuIcon="tab_kj" selectedMenuIcon="tab_kj_sel" menuType="chat" style="blockstyle" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+        <node id="tansuo" caption="探索" menuIcon="tab_ts_sel" menuType="zone" selectedMenuIcon="tab_ts_sel" style="blockstyle" leftHiddlen="YES" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+        <node id="xingji" caption="星际" menuIcon="tab_jm_sel" menuType="address" selectedMenuIcon="tab_jm_sel" style="blockstyle" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+        <node id="jidi" caption="基地" menuIcon="tab_jd_sel" selectedMenuIcon="tab_jd_sel" style="blockstyle" leftHiddlen="YES" barTintColor="0,113,188,1" tintColor="0,0,0,1" titlecolor="0,0,0,1" blockStyleMenuTitlecolor="104,186,220,1" blockStyleMenuSelectedTitlecolor="255,255,255,1" blockStyleMenuTitleFont="16.0" blockStyleMenuSelectedTitleFont="18.0"/>
+    </menuRoot>
+    <kongjian>
+        <node id="kongjian2" caption="空间" viewType="display" show="EFChatListViewController" />
+    </kongjian>
+    <tansuo>
+        <node id="yinlichang" caption="引力场" checked="1" menuIcon="menu_icon_ylc.png" viewType="display" show="ZoneController" navigationBarHidden="false"/>
+    </tansuo>
+    <xingji>
+        <node id="xingji2" caption="星际"  viewType="display" show="ChatAddressBookViewController"/>
+    </xingji>
+    <xingji2>
+        <node id="xdpy" title="新的朋友" menuIcon="chat_image_address_newfriend.png" viewType="display" show="NewFriendViewController" navigationBarHidden="true" tabBarHidden="true" badgeValueKey="newFriendBadgeValue"/>
+        <node id="xjbl" title="星际部落" menuIcon="chat_image_address_group.png" viewType="display" show="GroupChatViewController" navigationBarHidden="true" tabBarHidden="true"/>
+        <node id="xjtz" title="星际通知" menuIcon="chat_image_address_notice.png" viewType="display" show="GroupNoticeViewController" navigationBarHidden="true" tabBarHidden="true" badgeValueKey="newJoinGroupBadgeValue"/>
+        <node id="xjyy" title="星际应用" menuIcon="chat_image_address_yyh.png" viewType="display" show="PublicTableViewController" navigationBarHidden="true" tabBarHidden="true"/>
+        <node id="xjhy" title="星际合约" menuIcon="chat_image_address_hy.png"/>
+    </xingji2>
+    <jidi>
+        <node id="jidi2" caption="基地" viewType="display" show="TCMeController"/>
+    </jidi>
+</package>
+

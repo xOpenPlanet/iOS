@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LoginType</key>
+	<string>1</string>
+	<key>RestfulInterface</key>
+	<string>http://tc.solarsource.cn:9692/tcserver</string>
+	<key>IPAUrl</key>
+	<string>https://mobile.solarsource.cn/ospstore/ydqy.html</string>
+	<key>APPID</key>
+	<string>iOSOpenPlanet</string>
+	<key>ServiceKey</key>
+	<string>WXExternalInterfaceDataService</string>
+	<key>CloudDiskURL</key>
+	<string>http://panserver.solarsource.cn:9692/panserver</string>
+	<key>CloudDiskUserID</key>
+	<string>66662</string>
+	<key>CloudDiskParentID</key>
+	<string>66662</string>
+	<key>OSPMZOneURL</key>
+	<string>http://espace.solarsource.cn:9692/espace/</string>
+	<key>OSPTaskURL</key>
+	<string>http://zsytght.solarsource.cn:9692</string>
+	<key>OSPDeviceURL</key>
+	<string>http://im.solarsource.cn:9692</string>
+	<key>ip</key>
+	<string>mobile.solarsource.cn</string>
+	<key>port</key>
+	<string>9692</string>
+	<key>TaskProduct</key>
+	<string>HTGLXT</string>
+	<key>server</key>
+	<string>ESTMobile</string>
+	<key>product</key>
+	<string>ESPTablet_ZYYT</string>
+	<key>DBName</key>
+	<string>ZYYT_DB01</string>
+	<key>DBNO</key>
+	<string>ZYHYGL01</string>
+	<key>isSafe</key>
+	<string>0</string>
+	<key>isAd</key>
+	<string>1</string>
+	<key>IMBaseUrl</key>
+	<string>http://im.solarsource.cn:9692</string>
+	<key>messageService</key>
+	<string>WXExternalInterfaceDataService</string>
+	<key>LoginCheckType</key>
+	<string>ZYPTYTH</string>
+	<key>UMeng</key>
+	<dict>
+		<key>UMKey</key>
+		<string>5a09454e8f4a9d6de7000097</string>
+		<key>WeChatKey</key>
+		<string>wx324eec6b67bfe8c3</string>
+		<key>WeChatSecret</key>
+		<string>564b0fa42ffc6468cf40e4b6a6c39730</string>
+		<key>TXKey</key>
+		<string>1106457597</string>
+		<key>WeiBoKey</key>
+		<string>1345168865</string>
+		<key>WeiBoSecret</key>
+		<string>28c5041620ee0d0ef4a392568fa6129d</string>
+	</dict>
+</dict>
+</plist>

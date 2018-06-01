@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+    <ChatMenuRoot>
+        <node id="chatSingle" caption="单聊"/>
+        <node id="chatGroup" caption="群聊" />
+        <node id="chatAppNumber" caption="应用号聊天"/>
+    </ChatMenuRoot>
+    <chatSingle> 
+    </chatSingle>
+    <chatGroup>
+        <node id="reactNative" caption="工作日志" icon="img_EFChatViewController_keyBoard_item_RN.png" viewType = "ReactNative" component ="ReactNAtiveChatCompsItem" url ="localhost" type ="2" tcms="push" resource ="index.note"/>
+        <node id="reactNativeCJ" caption="活动" icon="img_EFChatViewController_keyBoard_item_award.png" permission = "3" viewType = "ReactNative" component ="RNAward" url ="localhost" type ="2" tcms="push" resource ="index.award"/>
+    </chatGroup>
+    <chatAppNumber>
+    </chatAppNumber>
+</package>

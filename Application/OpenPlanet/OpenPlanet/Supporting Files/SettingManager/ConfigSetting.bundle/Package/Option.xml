@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="option" caption="移动设置">
+    <optionRoot>
+        <node id="customColor" color="0,113,188O,1"/>
+    </optionRoot>
+    <ipaRoot>
+        <node id="ipaurl"  url ="https://mobile.solarsource.cn/ospstore/openplanet.html"/>
+    </ipaRoot>
+    <buglyRoot>
+        <node id="bugly"  buglyAppID ="d046c00e70"/>
+    </buglyRoot>
+    <MAMapKey>
+        <node id="MAMapKey" key="ee4f0cd5384642c414c93733d95112c5"/>
+    </MAMapKey>
+</package>

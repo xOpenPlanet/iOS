@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OpenPlanet.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/ThemeKit/ThemeKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/XMLParser/XMLParser.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/AFNetworking/AFNetworking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/DBManager/DBManager.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/Masonry/Masonry.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/WebComps/WebComps.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/MobileView/MobileView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/ShareComps/ShareComps.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/ChatComps/ChatComps.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/ToolsLibrary/ToolsLibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/CloudDiskComps/CloudDiskComps.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Component/Zone/Zone.xcodeproj">
+   </FileRef>
+</Workspace>

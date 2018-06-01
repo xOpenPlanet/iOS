@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package id="mobile_menu" caption="移动菜单设置">
+    <GroupRoot>
+        <node id="common" caption="公告" icon="group_icon_25.png"/>
+        <node id="punchcard" caption="打卡" icon="group_icon_02.png"/>
+        <node id="album" caption="相册" icon="group_icon_06.png"/>
+        <node id="topic" caption="话题" icon="group_icon_18.png"/>
+        <node id="calendar" caption="群日历" icon="group_icon_03.png"/>
+        <node id="vote" caption="群投票" icon="group_icon_24.png"/>
+        <node id="link" caption="群链接" icon="group_icon_09.png"/>
+        <node id="more" caption="更多" icon="group_icon_19.png"/>
+    </GroupRoot>
+</package>
